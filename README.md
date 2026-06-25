@@ -4,29 +4,6 @@ A collection of Python notebooks covering data cleaning, exploratory data analys
 
 ---
 
-## Table of Contents
-
-- [Repository Structure](#repository-structure)
-- [Notebooks Overview](#notebooks-overview)
-- [Installation](#installation)
-- [Technologies Used](#technologies-used)
-
----
-
-## Repository Structure
-
-```
-data-analysis-projects/
-│
-├── Copy_of_Employee_LeaveOrNot_Analysis.ipynb   # Employee attrition EDA
-├── data_cleaning.ipynb                          # Data cleaning techniques
-├── Data_visualization.ipynb                     # Data visualization methods
-├── Pandas_data_manipulation_.ipynb              # Pandas data manipulation
-└── README.md
-```
-
----
-
 ## Notebooks Overview
 
 ### 1. Employee LeaveOrNot Analysis
@@ -86,33 +63,6 @@ A practical notebook for data wrangling and manipulation using the Titanic datas
 
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/data-analysis-projects.git
-   cd data-analysis-projects
-   ```
-
-2. Install the required libraries:
-   ```bash
-   pip install numpy pandas matplotlib seaborn kagglehub
-   ```
-
-3. Open the notebooks in Jupyter or Google Colab:
-   ```bash
-   jupyter notebook
-   ```
-
-   Or upload directly to [Google Colab](https://colab.research.google.com/).
-
-4. Add the required datasets to your environment before running:
-   - `food_coded.csv` — for `data_cleaning.ipynb`
-   - `Titanic-Dataset.csv` — for `Pandas_data_manipulation_.ipynb`
-   - Employee dataset — loaded automatically via `kagglehub` in the Employee analysis notebook
-
----
-
 ## Technologies Used
 
 - **Python 3**
@@ -124,6 +74,4 @@ A practical notebook for data wrangling and manipulation using the Titanic datas
 
 ---
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
